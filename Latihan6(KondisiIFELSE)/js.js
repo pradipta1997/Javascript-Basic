@@ -1,0 +1,21 @@
+/*INI ADALAH METODE PENGKONDISIAN IF ELSE.  */
+
+var angka = prompt("Input Angka :");
+
+if(angka % 2 == 0){
+    alert(angka + " Adalah Bilangan Genap");
+
+}
+
+else{
+    alert(angka + " Adalah Bilangan Ganjil");
+
+}
+
+
+/*METODE PENGKONDISIAN SEPERTI INI MASIH ADA KELEMAHAN DI DALAMNYA,YAITU JIKA JIKA DI INPUT STRING(HURUF)
+MAKA AKAN MERUJUK KE BILANGAN GANJIL */
+
+/*SOLUSINYA ADALAH DENGAN MENGGUNAKAN ATAU MENAMBAHKAN ELSE.. IF.. JIKA MEMILIKI LEBIH DARI DUA KONDISI */
+
+/*ELSE.. IF.. ADA PADA (LATIHAN 7) --> */
